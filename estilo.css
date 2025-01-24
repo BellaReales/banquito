@@ -1,27 +1,33 @@
-/* estilo.css */
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    font-family: 'Times New Roman', Times, serif;
     color: #333;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Asegura que el contenido se distribuya bien */
-    height: 100vh; /* 100% del alto de la ventana */
+    justify-content: space-between; 
+    height: 100vh; 
+    background-image: url('/imagenes/Diseño\ sin\ título.png'); 
+    background-size: cover; 
+    background-position: center; 
 }
 
-header {
-    background-color: #333;
+
+
+
+/* header {
+    background-color: #000000;
     color: white;
     width: 100%;
     padding: 10px;
     text-align: center;
-}
+} */
 
 h1 {
-    margin: 20px 0;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    color: #ffffff;
 }
 
 .container {
@@ -29,27 +35,28 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end; /* Coloca el contenido hacia abajo */
+    justify-content: center;
     padding: 20px;
 }
 
 button {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px;
     margin: 10px 0;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 5px;
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    top: 20px;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 button img.icon {
@@ -63,13 +70,23 @@ input[type="text"], input[type="password"], input[type="number"], input[type="em
     margin: 5px 0;
     width: 300px;
     border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
+#movements-list {
+    color: white; 
+    padding: 10px; 
+}
+#pay-service-form {
+    color: #ffffff;
+}
+
+
 #logout {
-    background-color: #e74c3c;
+    background-color: #000000;
+    color: white;
 }
 
 #logout:hover {
-    background-color: #c0392b;
+    background-color: #ffffff;
+    color: black;
 }
